@@ -134,7 +134,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="w-full h-[500px] bg-black text-white text-center p-5">
+      <section className="w-full h-[500px] bg-[#0B0A14] text-white text-center p-5">
         <div className="space-y-3 w-[312px] mx-auto mt-[150px]">
           <h3 className="font-bold text-2xl ">
             We bring to you the best services for your needs
@@ -178,11 +178,11 @@ function App() {
 
         <img src={r4} alt="side" className="block md:hidden mt-5 mx-auto" />
       </div>
-      <section className="w-full bg-black p-20 text-center">
-        <h3 className="block md:hidden text-white font-bold text-[18px] mb-10 ">
+      <section className="w-full bg-[#0B0A14] p-20 text-center">
+        <h3 className="block text-white font-bold text-[18px] mt-20 mb-10 ">
           We also sell and supply the following
         </h3>
-        <div className=" space-y-5 md:space-y-0 grid md:grid-cols-3 w-full md:w-[800px] mx-auto grid-cols-1 ">
+        <div className=" gap-5 md:space-y-0 grid md:grid-cols-3 w-full md:w-[800px] mx-auto grid-cols-1 ">
           <img src={g1} alt="side" />
           <img src={g2} alt="side" />
           <img src={g3} alt="side" />
@@ -198,7 +198,7 @@ function App() {
             We have worked one these projects and much more
           </p>
         </div>
-        <div className="grid md:grid-cols-4 md:grid-rows-2 p-5">
+        <div className="grid gap-y-10 md:grid-cols-4 md:grid-rows-2 p-5">
           <img
             src={f1}
             alt="side"
@@ -295,7 +295,7 @@ function App() {
         className="w-full bg-cover bg-center text-white  md:space-x-10 md:flex md:justify-center p-10"
         style={{ backgroundImage: `url(${back})` }}
       >
-        <div className="md:w-[200px] space-y-5 p-6 md:border-r-2 border-white">
+        <div className="md:w-[200px] space-y-5 p-6 md:border-r-2 border-[#E0E0E0]">
           <p className="font-bold text-[18px]">
             We are within reach. Contact us today to get any information you
             need
@@ -304,7 +304,7 @@ function App() {
             Contact us
           </button>
         </div>
-        <div className="border-l-2 border-white md:border-0">
+        <div className="border-l-2 border-[#E0E0E0] md:border-0">
           <div className="space-y-5 p-6">
             <p className="font-bold text-xl">Our socials</p>
             <img src={social} alt="socials"></img>
