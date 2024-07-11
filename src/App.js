@@ -108,7 +108,7 @@ function App() {
         <div className="md:w-[600px] w-auto">
           <img src={side} alt="side" className="w-full " />
         </div>
-        <div className="w-[500px] p-5 mx-auto my-auto">
+        <div className="md:w-[500px] p-5 mx-auto my-auto">
           <div className="md:space-y-3 space-y-5">
             <h3 className="font-bold text-2xl">
               We are leading provider in telcom infrastructure and services
